@@ -12,7 +12,6 @@
   ],
   "version": "1.2.1",
   "repository": "juliangruber/bindings-browserify",
-  "main": "./bindings.js",
   "license": "MIT",
   "dependencies": {
     "bindingify": "^1.0.1"
