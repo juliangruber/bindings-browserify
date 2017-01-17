@@ -10,7 +10,7 @@
     "c",
     "c++"
   ],
-  "version": "2.0.0",
+  "version": "2.0.1",
   "repository": "juliangruber/bindings-browserify",
   "license": "MIT",
   "dependencies": {
