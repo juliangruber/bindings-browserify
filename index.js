@@ -68,10 +68,10 @@ function bindings (opts) {
     , err
 
   for (; i<l; i++) {
-    n = join.apply(null, opts.try[i].map(function (p) {
+    n = './' + join.apply(null, opts.try[i].map(function (p) {
       return opts[p] || p
     }))
-    tries.push('./' + n)
+    tries.push(n)
     try {
       b = opts.path ? require.resolve(n) : require(n)
       if (!opts.path) {
